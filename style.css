@@ -1,0 +1,122 @@
+*{margin: 0px; padding: 0px;}
+
+.container{
+    position: relative;
+}
+
+.navbar{
+    padding: 15px;
+    text-align: right;
+    background-color: rgb(209, 241, 23);
+}
+
+.product{
+    float: left;
+}
+
+
+.links{
+    display: inline;
+    margin: 2px;
+    
+}
+.navbar .links a{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(193, 224, 16);
+    opacity: .70;
+    transition: 0.4s;
+}
+.navbar links a:hover{opacity: 1; transition: 0.4s;}
+
+#nes{
+    background-color: rgb(141, 214, 31); color: white;
+}
+#sel{
+    background-color: rgb(19, 158, 19); color:white;
+}
+#ar{
+    background-color: rgb(32, 158, 70); color: white;
+}
+#bd{
+    background-color: rgb(56, 42, 250); color: white;
+}
+
+.content{
+    background-color: rgb(120, 218, 8);
+    width: 20vw;
+    height: 80vh;
+    display: flex;
+    float: left;
+    text-align: center;
+    
+}
+
+.milki{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.content .milki a{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid rgb(21, 104, 39);
+    background-color: green;
+    color: white;
+    opacity: .70;
+    transition: 0.4s;
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    background-color: rgb(80, 168, 39);
+    width: 50%;
+    height: 85vh;
+    padding: 10px;
+    
+}
+
+.picture{
+    display: block;
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+.text{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+}
+
+
+.side{
+    background-color: rgb(120, 218, 8);
+    height: 80vh;
+    width: 20vw;
+    float: right;
+    display: flex;
+    display: inline-block;
+
+}
+
+.photo{
+    margin: 15px;
+}
+
